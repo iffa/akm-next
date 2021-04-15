@@ -1,7 +1,7 @@
 import '@formatjs/intl-displaynames/polyfill';
 import '@formatjs/intl-displaynames/locale-data/en'; // locale-data for en
 import '@formatjs/intl-displaynames/locale-data/fi'; // locale-data for fi
-import 'tailwindcss/tailwind.css';
+import '@app/styles/global.css';
 import 'nprogress/css/nprogress.css';
 
 import { AppProps } from 'next/app';

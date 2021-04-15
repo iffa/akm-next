@@ -7,6 +7,14 @@ class AppDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            rel="preload"
+            href="/fonts/Inter.var.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link
             rel="alternate icon"
@@ -21,12 +29,12 @@ class AppDocument extends Document {
             sizes="16x16"
           />
           <link rel="alternate icon" href="/favicon.ico" />
-
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
-            rel="stylesheet"
+            href="/apple-touch-icon.png"
+            rel="apple-touch-icon"
+            sizes="180x180"
           />
+          <link href="/site.webmanifest" rel="manifest" />
         </Head>
         <body>
           <Main />
