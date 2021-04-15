@@ -9,12 +9,7 @@ import { useTranslation } from 'next-i18next';
 export const NavBar: React.FC = () => {
   const router = useRouter();
   const { t } = useTranslation('common');
-  const { locale: currentLocale, locales } = router;
-
-  // @ts-expect-error Intl.DisplayNames is polyfilled
-  const languageNames = new Intl.DisplayNames([currentLocale], {
-    type: 'language',
-  });
+  const { locales } = router;
 
   return (
     <header className="shadow z-10">
@@ -65,7 +60,7 @@ export const NavBar: React.FC = () => {
                                     : 'text-gray-700'
                                 } flex justify-between w-full px-4 py-2 text-sm leading-5 text-left transition duration-200 ease-in-out`}
                               >
-                                {languageNames.of(locale)}
+                                {t(`common:languages:${locale}`)}
                               </a>
                             </Link>
                           )}

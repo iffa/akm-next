@@ -6,6 +6,41 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
+module.exports = withBundleAnalyzer({
+  i18n,
+  future: {
+    webpack5: true,
+    strictPostcssConfiguration: true,
+  },
+  images: {
+    domains: [],
+  },
+  async headers() {
+    return [
+      {
+        source: '/',
+        headers: securityHeaders,
+      },
+      {
+        source: '/:path*',
+        headers: securityHeaders,
+      },
+    ];
+  },
+  webpack: (config, { dev, isServer }) => {
+    // Replace React with Preact only in client production build
+    if (!dev && !isServer) {
+      Object.assign(config.resolve.alias, {
+        react: 'preact/compat',
+        'react-dom/test-utils': 'preact/test-utils',
+        'react-dom': 'preact/compat',
+      });
+    }
+
+    return config;
+  },
+});
+
 // https://securityheaders.com
 const ContentSecurityPolicy = `
   default-src 'self';
@@ -55,25 +90,3 @@ const securityHeaders = [
     value: 'camera=(), microphone=(), geolocation=()',
   },
 ];
-
-module.exports = withBundleAnalyzer({
-  i18n,
-  future: {
-    webpack5: true,
-  },
-  images: {
-    domains: [],
-  },
-  async headers() {
-    return [
-      {
-        source: '/',
-        headers: securityHeaders,
-      },
-      {
-        source: '/:path*',
-        headers: securityHeaders,
-      },
-    ];
-  },
-});

@@ -1,5 +1,9 @@
 {
   "title": "AKM",
   "version": "next",
-  "change-language": "Vaihda kieltä"
+  "change-language": "Vaihda kieltä",
+  "languages": {
+    "fi": "suomi",
+    "en": "englanti"
+  }
 }
