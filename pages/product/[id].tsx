@@ -63,15 +63,15 @@ export default function Product(
         languageAlternates={[
           {
             hrefLang: 'x-default',
-            href: `${process.env.BASE_URL}/product/${product.id}`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}/product/${product.id}`,
           },
           {
             hrefLang: 'en',
-            href: `${process.env.BASE_URL}/en/product/${product.id}`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}/en/product/${product.id}`,
           },
           {
             hrefLang: 'fi',
-            href: `${process.env.BASE_URL}/fi/product/${product.id}`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}/fi/product/${product.id}`,
           },
         ]}
       />

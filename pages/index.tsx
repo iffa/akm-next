@@ -16,15 +16,15 @@ export default function Home(): JSX.Element {
         languageAlternates={[
           {
             hrefLang: 'x-default',
-            href: `${process.env.BASE_URL}`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}`,
           },
           {
             hrefLang: 'en',
-            href: `${process.env.BASE_URL}/en`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}/en`,
           },
           {
             hrefLang: 'fi',
-            href: `${process.env.BASE_URL}/fi`,
+            href: `${process.env.NEXT_PUBLIC_BASE_URL}/fi`,
           },
         ]}
       />
