@@ -16,15 +16,15 @@ export default function Home(): JSX.Element {
         languageAlternates={[
           {
             hrefLang: 'x-default',
-            href: 'https://akm.iffa.dev/',
+            href: `${process.env.BASE_URL}`,
           },
           {
             hrefLang: 'en',
-            href: 'https://akm.iffa.dev/en',
+            href: `${process.env.BASE_URL}/en`,
           },
           {
             hrefLang: 'fi',
-            href: 'https://akm.iffa.dev/fi',
+            href: `${process.env.BASE_URL}/fi`,
           },
         ]}
       />

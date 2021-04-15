@@ -63,15 +63,15 @@ export default function Product(
         languageAlternates={[
           {
             hrefLang: 'x-default',
-            href: 'https://akm.iffa.dev/product/' + product.id,
+            href: `${process.env.BASE_URL}/product/${product.id}`,
           },
           {
             hrefLang: 'en',
-            href: 'https://akm.iffa.dev/en/product/' + product.id,
+            href: `${process.env.BASE_URL}/en/product/${product.id}`,
           },
           {
             hrefLang: 'fi',
-            href: 'https://akm.iffa.dev/fi/product/' + product.id,
+            href: `${process.env.BASE_URL}/fi/product/${product.id}`,
           },
         ]}
       />
