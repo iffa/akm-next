@@ -1,10 +1,12 @@
 import { Product } from '@app/lib/model/product.model';
 import { ProductOfferTableRow } from './ProductOfferTableRow';
 import React from 'react';
+import { useTranslation } from 'next-i18next';
 
 export const ProductOfferTable: React.FC<{ product: Product }> = ({
   product,
 }) => {
+  const { t } = useTranslation();
   const offers = product.offers
     .filter((offer) => offer.available)
     .sort((a, b) => {
@@ -26,22 +28,22 @@ export const ProductOfferTable: React.FC<{ product: Product }> = ({
                     scope="col"
                     className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                   >
-                    Platform &amp; edition
+                    {t('product:platformAndEdition')}
                   </th>
                   <th
                     scope="col"
                     className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
                   >
-                    Store
+                    {t('product:store')}
                   </th>
                   <th
                     scope="col"
                     className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider"
                   >
-                    Price &amp; voucher
+                    {t('product:priceAndVoucher')}
                   </th>
                   <th scope="col" className="relative px-4 py-3">
-                    <span className="sr-only">Purchase</span>
+                    <span className="sr-only">{t('product:purchase')}</span>
                   </th>
                 </tr>
               </thead>

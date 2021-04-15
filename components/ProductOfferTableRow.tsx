@@ -4,8 +4,10 @@ import { Offer } from '@app/lib/model/offer.model';
 import React from 'react';
 import { getFormattedPrice } from '@app/utils/number-utils';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 
 export const ProductOfferTableRow: React.FC<{ offer: Offer }> = ({ offer }) => {
+  const { t } = useTranslation();
   const { locale } = useRouter();
   const { region, edition, store, currency, url, bestVoucher } = offer;
   const price = bestVoucher?.priceWithVoucher || offer.price;
@@ -47,7 +49,7 @@ export const ProductOfferTableRow: React.FC<{ offer: Offer }> = ({ offer }) => {
           rel="noreferrer noopener"
           className="text-blue-600 hover:text-blue-900 visited:text-purple-600 cursor-pointer"
         >
-          Purchase
+          {t('product:purchase')}
         </a>
       </td>
     </tr>

@@ -1,0 +1,24 @@
+{
+  "developedBy": "Kehittänyt <span>{{developer}}</span>",
+  "publishedBy": "Julkaissut <span>{{publisher}}</span>",
+
+  "bestOfferTitle": "Paras tarjous",
+  "availableOffers": "Saatavilla olevat tarjoukset",
+  "metacriticScore": "Metacritic-arvio",
+
+  "bestOffer": "<span>{{price}}</span> kaupasta {{store}}",
+  "bestOfferVoucher": ", koodilla <span>{{voucher}}</span>",
+
+  "offers": "<span>{{count}}</span> tarjous",
+  "offers_plural": "<span>{{count}}</span> tarjousta",
+
+  "fromStores": " <span>{{count}}</span> kaupasta",
+  "fromStores_plural": " <span>{{count}}</span> kaupasta",
+
+  "rating": "<span>{{rating}}%</span> arvio <span>{{votes}}</span> äänestä",
+
+  "platformAndEdition": "Alusta & versio",
+  "store": "Kauppa",
+  "priceAndVoucher": "Hinta & alennuskoodi",
+  "purchase": "Osta"
+}

@@ -4,9 +4,11 @@ import { GrLanguage } from 'react-icons/gr';
 import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 
 export const NavBar: React.FC = () => {
   const router = useRouter();
+  const { t } = useTranslation('common');
   const { locale: currentLocale, locales } = router;
 
   // @ts-expect-error Intl.DisplayNames is polyfilled
@@ -19,7 +21,10 @@ export const NavBar: React.FC = () => {
       <div className="container mx-auto p-4 flex flex-row justify-between items-center align-middle">
         <Link href="/">
           <a className="text-xl text-gray-900 font-semibold">
-            AKM<span className="text-gray-700 font-normal text-sm">next</span>
+            {t('title')}
+            <span className="text-gray-700 font-normal text-sm">
+              {t('version')}
+            </span>
           </a>
         </Link>
         <div className="relative inline-block text-left">
@@ -29,7 +34,7 @@ export const NavBar: React.FC = () => {
                 <span className="rounded-md shadow-sm">
                   <Menu.Button
                     className="inline-flex justify-center w-full p-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out bg-white border border-gray-300 rounded-full hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800"
-                    title="Change language"
+                    title={t('change-language')}
                   >
                     <GrLanguage className="w-4 h-4" />
                   </Menu.Button>

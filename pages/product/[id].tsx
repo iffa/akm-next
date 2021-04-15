@@ -8,6 +8,7 @@ import { ProductDetailsCard } from '@app/components/ProductDetailsCard';
 import { ProductOfferTable } from '@app/components/ProductOfferTable';
 import React from 'react';
 import { getProduct } from '@app/lib/products';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
@@ -28,6 +29,10 @@ export const getStaticProps = async (context: GetStaticPropsContext) => {
 
     return {
       props: {
+        ...(await serverSideTranslations(context.locale, [
+          'common',
+          'product',
+        ])),
         product,
       },
       revalidate: 60 * 30, // 30 minutes

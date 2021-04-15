@@ -3,15 +3,14 @@ import { DefaultSeoProps } from 'next-seo';
 /**
  * Site metadata that is to be included in all pages by default.
  * Note: title, description, alternate languages etc. should be set on a
- * per-page basis. Since this template on its own is quite lightweight,
- * they are all here.
+ * per-page basis.
  *
  * Learn more: https://github.com/garmeeh/next-seo
  */
 export const defaultSeo: DefaultSeoProps = {
-  title: 'Next.js starter template',
+  title: 'AKM - Find affordable game keys',
   description:
-    'Opinionated Next.js project starter template, with TypeScript, Chakra UI and more. 🌟',
+    'Find affordable games and downloadable content from dozens of stores with zero hassle.',
   /**
    * Include all available locales and their alternative urls in metadata.
    * This is important for SEO if the website is available in multiple locales.
@@ -21,15 +20,15 @@ export const defaultSeo: DefaultSeoProps = {
   languageAlternates: [
     {
       hrefLang: 'x-default',
-      href: 'https://next-starter-iffa.vercel.app/',
+      href: 'https://akm.iffa.dev/',
     },
     {
       hrefLang: 'en',
-      href: 'https://next-starter-iffa.vercel.app/en',
+      href: 'https://akm.iffa.dev/en',
     },
     {
       hrefLang: 'fi',
-      href: 'https://next-starter-iffa.vercel.app/fi',
+      href: 'https://akm.iffa.dev/fi',
     },
   ],
 };

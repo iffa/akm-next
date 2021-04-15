@@ -4,8 +4,10 @@ import { GoSearch } from 'react-icons/go';
 import { Product } from '@app/lib/model/product.model';
 import { SearchResult } from './SearchResult';
 import { useForm } from 'react-hook-form';
+import { useTranslation } from 'next-i18next';
 
 export default function Search(): JSX.Element {
+  const { t } = useTranslation('home');
   const [results, setResults] = useState<Product[]>([]);
   const { register, handleSubmit, formState } = useForm({
     mode: 'all',
@@ -32,12 +34,12 @@ export default function Search(): JSX.Element {
     <form onSubmit={handleSubmit(onSubmit)} action="">
       <div className="relative flex w-full flex-wrap items-stretch">
         <label htmlFor="search" className="sr-only">
-          Search for games or DLC
+          {t('search-hint')}
         </label>
         <input
           id="searchInput"
           type="search"
-          placeholder="Search for games or DLC"
+          placeholder={t('search-hint')}
           className="relative px-4 py-4 bg-white placeholder-gray-300 text-gray-600 rounded text-base border-0 shadow focus:ring w-full pr-12 transition duration-200 ease-in-out"
           {...rest}
           name="search"
@@ -50,6 +52,7 @@ export default function Search(): JSX.Element {
           id="searchSubmit"
           className="h-full font-normal absolute text-center text-gray-700 bg-transparent items-center justify-center w-8 right-0 py-4 mr-3 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
           disabled={!formState.isValid}
+          title={t('search-submit')}
         >
           <GoSearch className="w-full h-full" />
         </button>
