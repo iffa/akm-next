@@ -20,5 +20,10 @@
   "platformAndEdition": "Alusta & versio",
   "store": "Kauppa",
   "priceAndVoucher": "Hinta & alennuskoodi",
-  "purchase": "Osta"
+  "purchase": "Osta",
+
+  "seo": {
+    "title": "AKM | {{product}}",
+    "description": "Osta {{product}} peliavain halvalla"
+  }
 }

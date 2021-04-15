@@ -1,4 +1,8 @@
 {
   "search-hint": "Hae pelejä tai lisäosia",
-  "search-submit": "Hae"
+  "search-submit": "Hae",
+  "seo": {
+    "title": "AKM - Löydä halpoja peliavaimia",
+    "description": "Löydä halpoja pelejä ja ladattavaa sisältöä kymmenistä eri kaupoista ilman ylimääräistä säätöä."
+  }
 }

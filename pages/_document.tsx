@@ -7,18 +7,20 @@ class AppDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link
-            rel="icon"
+            rel="alternate icon"
             type="image/png"
             href="/favicon-32x32.png"
             sizes="32x32"
           />
           <link
-            rel="icon"
+            rel="alternate icon"
             type="image/png"
             href="/favicon-16x16.png"
             sizes="16x16"
           />
+          <link rel="alternate icon" href="/favicon.ico" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

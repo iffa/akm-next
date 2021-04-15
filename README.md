@@ -1,6 +1,9 @@
-<h1 align="center">next-starter</h1>
+<p align="center">
+<img src="public/favicon.svg" width="128" height="128" />
+</p>
+<h1 align="center">akm-next</h1>
 
-[![Latest release](https://img.shields.io/github/v/release/iffa/next-starter?style=flat-square)](#)
+[![Latest release](https://img.shields.io/github/v/release/iffa/akm-next?style=flat-square)](#)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
@@ -10,34 +13,33 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/iffa/next-starter)
 
-Opinionated [Next.js](https://nextjs.org/) project starter template.
+Find affordable games and downloadable content from dozens of stores with zero hassle.
 
-## Features
+## Built with
 
-- Extended from default `create-next-app` starter with TypeScript support
-- Includes [Chakra UI](https://chakra-ui.com/) for styling
-- [next-translate](https://github.com/vinissimus/next-translate) for internationalization
-- [next-seo](https://github.com/garmeeh/next-seo) for easy management of SEO metadata
-- [Cloudflare web analytics](https://www.cloudflare.com/web-analytics/) included
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](tailwindcss.com/) for styling
+- An assortment of third-party libraries, such as [next-i18next](https://github.com/isaachinman/next-i18next/), [next-seo](https://github.com/garmeeh/next-seo) and [next-sitemap](https://github.com/iamvishnusankar/next-sitemap)
 - End-to-end testing with [Cypress](https://www.cypress.io/)
 - A bunch of tools for a better dev experience, including [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) and [commitlint](https://commitlint.js.org)
 - One-click deploy to [Vercel](https://vercel.com)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
+git clone git@github.com:iffa/akm-next.git
+
+cd akm-next
+
+yarn install
+
+# create .env.local and add environment variables (see .env.example)
+touch .env.local
+
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
@@ -56,6 +58,12 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Credits
+
+Products and search powered by [Allkeyshop.com](allkeyshop.com/).
+
+Favicon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -65,7 +73,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://iffa.dev"><img src="https://avatars.githubusercontent.com/u/759522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Santeri Elo</b></sub></a><br /><a href="https://github.com/iffa/next-starter/commits?author=iffa" title="Code">💻</a></td>
+    <td align="center"><a href="https://iffa.dev"><img src="https://avatars.githubusercontent.com/u/759522?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Santeri Elo</b></sub></a><br /><a href="https://github.com/iffa/akm-next/commits?author=iffa" title="Code">💻</a></td>
   </tr>
 </table>
 

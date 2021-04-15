@@ -1,5 +1,6 @@
 import {
   GetStaticPaths,
+  GetStaticProps,
   GetStaticPropsContext,
   InferGetStaticPropsType,
 } from 'next';
@@ -9,6 +10,8 @@ import { ProductOfferTable } from '@app/components/ProductOfferTable';
 import React from 'react';
 import { getProduct } from '@app/lib/products';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { NextSeo } from 'next-seo';
+import { useTranslation } from 'next-i18next';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
@@ -19,9 +22,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-// https://github.com/vercel/next.js/issues/15913
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const getStaticProps = async (context: GetStaticPropsContext) => {
+export const getStaticProps: GetStaticProps = async (
+  context: GetStaticPropsContext
+) => {
   const { id } = context.params;
 
   try {
@@ -29,11 +32,11 @@ export const getStaticProps = async (context: GetStaticPropsContext) => {
 
     return {
       props: {
+        product,
         ...(await serverSideTranslations(context.locale, [
           'common',
           'product',
         ])),
-        product,
       },
       revalidate: 60 * 30, // 30 minutes
     };
@@ -49,12 +52,33 @@ export const getStaticProps = async (context: GetStaticPropsContext) => {
 export default function Product(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ): JSX.Element {
+  const { t } = useTranslation();
   const { product } = props;
 
   return (
-    <div className="container mx-auto space-y-8 px-4">
-      <ProductDetailsCard product={product}></ProductDetailsCard>
-      <ProductOfferTable product={product}></ProductOfferTable>
-    </div>
+    <>
+      <NextSeo
+        title={t('product:seo:title', { product: product.name })}
+        description={t('product:seo:description', { product: product.name })}
+        languageAlternates={[
+          {
+            hrefLang: 'x-default',
+            href: 'https://akm.iffa.dev/product/' + product.id,
+          },
+          {
+            hrefLang: 'en',
+            href: 'https://akm.iffa.dev/en/product/' + product.id,
+          },
+          {
+            hrefLang: 'fi',
+            href: 'https://akm.iffa.dev/fi/product/' + product.id,
+          },
+        ]}
+      />
+      <div className="container mx-auto space-y-8 px-4">
+        <ProductDetailsCard product={product}></ProductDetailsCard>
+        <ProductOfferTable product={product}></ProductOfferTable>
+      </div>
+    </>
   );
 }

@@ -1,0 +1,896 @@
+[
+  {
+    "offers": [
+      {
+        "price": 12.06,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.kinguin.net",
+          "id": 47,
+          "name": "Kinguin",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "ALLKEYSHOP8",
+          "priceWithVoucher": 11.1,
+          "discount": {
+            "type": "%",
+            "value": 8
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132710123?locale=en_GB&merchant=47&apiKey=vaks_extension"
+      },
+      {
+        "price": 11.19,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 13:13:40",
+        "store": {
+          "officialUrl": "http://www.humblebundle.com",
+          "id": 126,
+          "name": "Humble Store",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133413106?locale=en_GB&merchant=126&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.29,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-09 16:07:55",
+        "store": {
+          "officialUrl": "http://www.kinguin.net",
+          "id": 47,
+          "name": "Kinguin",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "ALLKEYSHOP8",
+          "priceWithVoucher": 11.31,
+          "discount": {
+            "type": "%",
+            "value": 8
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift ROW",
+          "name": "Steam Gift ROW"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133290111?locale=en_GB&merchant=47&apiKey=vaks_extension"
+      },
+      {
+        "price": 11.62,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 10:25:27",
+        "store": {
+          "officialUrl": "http://www.gamivo.com",
+          "id": 218,
+          "name": "Gamivo",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132830069?locale=en_GB&merchant=218&apiKey=vaks_extension"
+      },
+      {
+        "price": 11.87,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 02:09:55",
+        "store": {
+          "officialUrl": "http://www.hrkgame.com",
+          "id": 94,
+          "name": "HRK Game",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132494312?locale=en_GB&merchant=94&apiKey=vaks_extension"
+      },
+      {
+        "price": 11.88,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61616,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "99â¬ Monthly Sub",
+          "priceWithVoucher": 11.88,
+          "discount": {
+            "type": "%",
+            "value": 0
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133485125?locale=en_GB&merchant=61616&apiKey=vaks_extension"
+      },
+      {
+        "price": 11.89,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132703665?locale=en_GB&merchant=61&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.35,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 04:11:44",
+        "store": {
+          "officialUrl": "http://www.cjs-cdkeys.com",
+          "id": 67,
+          "name": "CJS-Cdkeys",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132402646?locale=en_GB&merchant=67&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.88,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 14:14:50",
+        "store": {
+          "officialUrl": "http://www.kinguin.net",
+          "id": 47,
+          "name": "Kinguin",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "ALLKEYSHOP8",
+          "priceWithVoucher": 12.77,
+          "discount": {
+            "type": "%",
+            "value": 8
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132567771?locale=en_GB&merchant=47&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.95,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.gamingdragons.com",
+          "id": 73,
+          "name": "Gamingdragons",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam EU",
+          "name": "Steam EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133043934?locale=en_GB&merchant=73&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.38,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 14:10:25",
+        "store": {
+          "officialUrl": "http://www.eneba.com",
+          "id": 272,
+          "name": "Eneba",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "AKS",
+          "priceWithVoucher": 12.98,
+          "discount": {
+            "type": "%",
+            "value": 3
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132720514?locale=en_GB&merchant=272&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.98,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 14:13:32",
+        "store": {
+          "officialUrl": "http://www.hrkgame.com",
+          "id": 94,
+          "name": "HRK Game",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift",
+          "name": "Steam Gift"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132694156?locale=en_GB&merchant=94&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-12 18:28:33",
+        "store": {
+          "officialUrl": "http://www.instant-gaming.com",
+          "id": 13,
+          "name": "Instant Gaming",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132474406?locale=en_GB&merchant=13&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.mmoga.com",
+          "id": 40,
+          "name": "Mmoga",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift EU",
+          "name": "Steam Gift EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133295530?locale=en_GB&merchant=40&apiKey=vaks_extension"
+      },
+      {
+        "price": 12.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.electronicfirst.com",
+          "id": 158,
+          "name": "ElectronicFirst",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132941716?locale=en_GB&merchant=158&apiKey=vaks_extension"
+      },
+      {
+        "price": 14.44,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-09 17:33:58",
+        "store": {
+          "officialUrl": "http://www.kinguin.net",
+          "id": 47,
+          "name": "Kinguin",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "ALLKEYSHOP8",
+          "priceWithVoucher": 13.28,
+          "discount": {
+            "type": "%",
+            "value": 8
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift",
+          "name": "Steam Gift"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132693576?locale=en_GB&merchant=47&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.45,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-14 06:07:25",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61616,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "99â¬ Monthly Sub",
+          "priceWithVoucher": 13.45,
+          "discount": {
+            "type": "%",
+            "value": 0
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133474321?locale=en_GB&merchant=61616&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.49,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.gamingdragons.com",
+          "id": 73,
+          "name": "Gamingdragons",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133043921?locale=en_GB&merchant=73&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.57,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-14 20:19:35",
+        "store": {
+          "officialUrl": "http://www.gamivo.com",
+          "id": 218,
+          "name": "Gamivo",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift",
+          "name": "Steam Gift"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132700438?locale=en_GB&merchant=218&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.59,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-13 02:31:17",
+        "store": {
+          "officialUrl": "http://www.cdkeys.com",
+          "id": 9,
+          "name": "CDKeys.com",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132657143?locale=en_GB&merchant=9&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 10:37:25",
+        "store": {
+          "officialUrl": "http://www.gog.com",
+          "id": 20,
+          "name": "Gog.com",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "GOG Global",
+          "name": "GOG Global"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132398635?locale=en_GB&merchant=20&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-12 10:05:57",
+        "store": {
+          "officialUrl": "http://www.gamivo.com",
+          "id": 218,
+          "name": "Gamivo",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132642187?locale=en_GB&merchant=218&apiKey=vaks_extension"
+      },
+      {
+        "price": 13.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 12:07:24",
+        "store": {
+          "officialUrl": "http://store.steampowered.com",
+          "id": 1,
+          "name": "Steam",
+          "isOfficialStore": true
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133091853?locale=en_GB&merchant=1&apiKey=vaks_extension"
+      },
+      {
+        "price": 14.63,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 14:55:57",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61616,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "99â¬ Monthly Sub",
+          "priceWithVoucher": 14.63,
+          "discount": {
+            "type": "%",
+            "value": 0
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift",
+          "name": "Steam Gift"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133482808?locale=en_GB&merchant=61616&apiKey=vaks_extension"
+      },
+      {
+        "price": 14.94,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-14 06:03:02",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132398633?locale=en_GB&merchant=61&apiKey=vaks_extension"
+      },
+      {
+        "price": 15.24,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-15 14:51:29",
+        "store": {
+          "officialUrl": "http://www.g2a.com",
+          "id": 61,
+          "name": "G2A",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam Gift",
+          "name": "Steam Gift"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132654731?locale=en_GB&merchant=61&apiKey=vaks_extension"
+      },
+      {
+        "price": 15.6,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-06 06:15:55",
+        "store": {
+          "officialUrl": "http://www.bcdkey.com",
+          "id": 175,
+          "name": "BCDKey.com",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": false,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132866633?locale=en_GB&merchant=175&apiKey=vaks_extension"
+      },
+      {
+        "price": 16.49,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-14 16:12:57",
+        "store": {
+          "officialUrl": "http://punktid.com",
+          "id": 307,
+          "name": "Punktid",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "AKS5",
+          "priceWithVoucher": 15.67,
+          "discount": {
+            "type": "%",
+            "value": 5
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/132993179?locale=en_GB&merchant=307&apiKey=vaks_extension"
+      },
+      {
+        "price": 15.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-13 04:41:04",
+        "store": {
+          "officialUrl": "http://www.mmoga.com",
+          "id": 40,
+          "name": "Mmoga",
+          "isOfficialStore": false
+        },
+        "bestVoucher": null,
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam",
+          "name": "Steam"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133632340?locale=en_GB&merchant=40&apiKey=vaks_extension"
+      },
+      {
+        "price": 19.99,
+        "currency": "eur",
+        "stockStatus": "in_stock",
+        "modificationDatetime": "2021-04-11 15:46:44",
+        "store": {
+          "officialUrl": "http://www.kinguin.net",
+          "id": 47,
+          "name": "Kinguin",
+          "isOfficialStore": false
+        },
+        "bestVoucher": {
+          "code": "ALLKEYSHOP8",
+          "priceWithVoucher": 18.39,
+          "discount": {
+            "type": "%",
+            "value": 8
+          }
+        },
+        "available": true,
+        "edition": {
+          "id": "1",
+          "name": "Standard Edition",
+          "description": "Standard Edition"
+        },
+        "region": {
+          "id": "Steam EU",
+          "name": "Steam EU"
+        },
+        "url": "https://click.allkeyshop.com/offer/eur/133091849?locale=en_GB&merchant=47&apiKey=vaks_extension"
+      }
+    ],
+    "metacriticScores": {
+      "critic": {
+        "rating": 86,
+        "votes": 99
+      },
+      "user": {
+        "rating": 97,
+        "votes": 289895
+      },
+      "total": {
+        "rating": 91,
+        "votes": 289994
+      }
+    },
+    "id": 12171,
+    "categorySlug": "simulator",
+    "keywords": [],
+    "tags": [
+      {
+        "id": 122,
+        "name": "RPG"
+      },
+      {
+        "id": 3964,
+        "name": "Pixel Graphics"
+      },
+      {
+        "id": 10235,
+        "name": "Life Sim"
+      },
+      {
+        "id": 87918,
+        "name": "Farming Sim"
+      }
+    ],
+    "name": "Stardew Valley",
+    "thumbnailUrl": "https://www.allkeyshop.com/img/buy-stardew-valley-cd-key-pc-download-catalog.jpg",
+    "link": "https://www.allkeyshop.com/blog/buy-stardew-valley-cd-key-compare-prices/",
+    "releaseYear": 2016,
+    "releaseMonth": 2,
+    "developer": "ConcernedApe",
+    "officialWebsite": "https://www.stardewvalley.net/",
+    "publisher": "ConcernedApe, Chucklefish",
+    "releaseDate": "2016-02-26",
+    "availablePlatforms": {
+      "pc": {
+        "gameId": 12171,
+        "platformName": "PC"
+      },
+      "playstation4": {
+        "gameId": 16944,
+        "platformName": "PlayStation 4"
+      },
+      "xboxone": {
+        "gameId": 16781,
+        "platformName": "Xbox One"
+      },
+      "switch": {
+        "gameId": 21635,
+        "platformName": "Switch"
+      }
+    },
+    "platform": "pc",
+    "bestOffer": {
+      "price": 12.06,
+      "currency": "eur",
+      "stockStatus": "in_stock",
+      "modificationDatetime": "2021-04-06 06:15:55",
+      "store": {
+        "officialUrl": "http://www.kinguin.net",
+        "id": 47,
+        "name": "Kinguin",
+        "isOfficialStore": false
+      },
+      "bestVoucher": {
+        "code": "ALLKEYSHOP8",
+        "priceWithVoucher": 11.1,
+        "discount": {
+          "type": "%",
+          "value": 8
+        }
+      },
+      "available": true,
+      "edition": {
+        "id": "1",
+        "name": "Standard Edition",
+        "description": "Standard Edition"
+      },
+      "region": {
+        "id": "Steam Gift EU",
+        "name": "Steam Gift EU"
+      },
+      "url": "https://click.allkeyshop.com/offer/eur/132710123?locale=en_GB&merchant=47&apiKey=vaks_extension"
+    },
+    "offerAggregate": {
+      "offerCount": 30,
+      "lowestPrice": 11.1,
+      "highestPrice": 18.39
+    },
+    "coverImageUrl": "https://www.allkeyshop.com/blog/wp-content/uploads/StardewValley-1.jpg"
+  }
+]

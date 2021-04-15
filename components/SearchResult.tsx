@@ -4,8 +4,10 @@ import React from 'react';
 import { getFormattedPrice } from '@app/utils/number-utils';
 import { useRouter } from 'next/router';
 
-export const SearchResult: React.FC<{ product: Product }> = (props) => {
-  const { product } = props;
+export const SearchResult: React.FC<{ product: Product; index: number }> = (
+  props
+) => {
+  const { product, index } = props;
   const { locale } = useRouter();
   const price =
     product.bestOffer?.bestVoucher?.priceWithVoucher ||
@@ -13,7 +15,10 @@ export const SearchResult: React.FC<{ product: Product }> = (props) => {
   const currency = product.bestOffer?.currency;
 
   return (
-    <div className="w-full md:w-1/2 lg:w-1/3 p-0 md:p-4">
+    <div
+      id={`searchResult-${index}`}
+      className="w-full md:w-1/2 lg:w-1/3 p-0 md:p-4"
+    >
       <Link
         href={{
           pathname: '/product/[id]',

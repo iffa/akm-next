@@ -62,8 +62,12 @@ export default function Search(): JSX.Element {
         id="searchResults"
         className="mt-8 space-y-6 md:space-y-0 content-evenly flex flex-col md:flex-row md:flex-wrap md:-mx-4"
       >
-        {results.map((result) => (
-          <SearchResult product={result} key={result.id}></SearchResult>
+        {results.map((result, index) => (
+          <SearchResult
+            product={result}
+            index={index}
+            key={result.id}
+          ></SearchResult>
         ))}
       </div>
     </form>

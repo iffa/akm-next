@@ -20,5 +20,10 @@
   "platformAndEdition": "Platform & edition",
   "store": "Store",
   "priceAndVoucher": "Price & voucher",
-  "purchase": "Purchase"
+  "purchase": "Purchase",
+
+  "seo": {
+    "title": "AKM | {{product}}",
+    "description": "Buy game key for {{product}} affordably"
+  }
 }
