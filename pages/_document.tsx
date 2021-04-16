@@ -12,7 +12,7 @@ class AppDocument extends Document {
             href="/fonts/Inter.var.woff2"
             as="font"
             type="font/woff2"
-            crossOrigin="anonymous"
+            crossOrigin="true"
           />
 
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -41,11 +41,13 @@ class AppDocument extends Document {
           <NextScript />
 
           {/* Cloudflare Web Analytics */}
-          <script
-            defer
-            src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon={`{"token": "${process.env.ANALYTICS_TOKEN}"}`}
-          />
+          {process.env.NODE_ENV === 'production' && (
+            <script
+              defer
+              src="https://static.cloudflareinsights.com/beacon.min.js"
+              data-cf-beacon={`{"token": "${process.env.ANALYTICS_TOKEN}"}`}
+            />
+          )}
         </body>
       </Html>
     );
