@@ -5,7 +5,7 @@ import React from 'react';
 import { getFormattedPrice } from '@app/utils/number-utils';
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
-
+import Image from 'next/image';
 export const ProductOfferTableRow: React.FC<{ offer: Offer }> = ({ offer }) => {
   const { t } = useTranslation();
   const { locale } = useRouter();
@@ -17,11 +17,13 @@ export const ProductOfferTableRow: React.FC<{ offer: Offer }> = ({ offer }) => {
       <td className="px-4 py-4 whitespace-nowrap">
         <div className="flex items-center">
           <div className="flex-shrink-0 h-10 w-10">
-            <img
+            <Image
               className="h-10 w-10"
               src={getLauncherIcon(region.id)}
               alt={region.name}
-            ></img>
+              width={40}
+              height={40}
+            ></Image>
           </div>
           <div className="ml-4">
             <div className="text-sm font-medium text-gray-900">
@@ -31,7 +33,7 @@ export const ProductOfferTableRow: React.FC<{ offer: Offer }> = ({ offer }) => {
           </div>
         </div>
       </td>
-      <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-900">
+      <td className="hidden md:visible px-4 py-4 whitespace-nowrap text-sm text-gray-900">
         <div>{store.name}</div>
       </td>
       <td className="px-4 py-4 whitespace-nowrap text-right">
