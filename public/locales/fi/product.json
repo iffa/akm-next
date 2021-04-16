@@ -22,6 +22,11 @@
   "priceAndVoucher": "Hinta & alennuskoodi",
   "purchase": "Osta",
 
+  "platforms": "Alustat",
+  "editions": "Versiot",
+  "stores": "Kaupat",
+  "selectAll": "Valitse kaikki",
+
   "seo": {
     "title": "AKM | {{product}}",
     "description": "Osta {{product}} peliavain halvalla"
