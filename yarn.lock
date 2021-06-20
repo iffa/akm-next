@@ -326,6 +326,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.13.17":
+  version "7.14.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
+  integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.12.13", "@babel/template@^7.3.3":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
@@ -5816,11 +5823,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-i18next@8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/next-i18next/-/next-i18next-8.2.0.tgz#9d966fe531d34cf0c9d3d463768fe9addcf834bd"
-  integrity sha512-UvcjKY0sT49hVHPAZ+bH1TDQXN6YVOJky+518Uhv60rtIRieMaGrVLSwysztmJuFA6Xwd/z+NCVcwoghVGJYOA==
+next-i18next@8.5.1:
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/next-i18next/-/next-i18next-8.5.1.tgz#9ec3baf31aeb27be0a878283e135c6e9557b3130"
+  integrity sha512-ETr6yOw69PPvbUCH2RoujgRzreTzcbSS4YrTusP5878ovBSmoah/mZ4+iUVVRU4ToeaSBZiIIJA6MtAJWGFBTw==
   dependencies:
+    "@babel/runtime" "^7.13.17"
     "@types/hoist-non-react-statics" "^3.3.1"
     "@types/i18next-fs-backend" "^1.0.0"
     core-js "^3"
