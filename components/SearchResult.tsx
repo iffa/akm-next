@@ -40,6 +40,7 @@ export const SearchResult: React.FC<{ product: Product; index: number }> = (
           </div>
           <div className="w-1/3">
             <div className="aspect-w-9 aspect-h-11">
+              {/** TODO: Use next/image instead of native <img> */}
               <img
                 className="rounded"
                 width={180}

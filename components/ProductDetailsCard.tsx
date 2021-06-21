@@ -20,7 +20,10 @@ export const ProductDetailsCard: React.FC<{ product: Product }> = ({
   return (
     <div className="w-full bg-white rounded shadow">
       <div className="p-4">
-        <h3 className="text-xl leading-6 font-medium text-gray-900">
+        <h3
+          className="text-xl leading-6 font-medium text-gray-900"
+          data-cy="title"
+        >
           {product.name}
         </h3>
         <p className="mt-1 max-w-2xl text-sm text-gray-500">

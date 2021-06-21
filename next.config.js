@@ -10,8 +10,10 @@ module.exports = withBundleAnalyzer({
   i18n,
   reactStrictMode: true,
   future: {
-    webpack5: true,
     strictPostcssConfiguration: true,
+  },
+  eslint: {
+    dirs: ['pages', 'components', 'lib', 'utils'],
   },
   images: {
     domains: [],

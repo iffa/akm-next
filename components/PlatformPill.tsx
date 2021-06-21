@@ -15,6 +15,7 @@ export const PlatformPill: React.FC<{
       passHref
     >
       <a
+        data-cy={platform.gameId}
         className={`${
           isCurrent
             ? 'bg-blue-700 text-gray-200 hover:bg-blue-800'
