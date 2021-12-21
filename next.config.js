@@ -9,6 +9,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   i18n,
   reactStrictMode: true,
+  swcMinify: true,
   future: {
     strictPostcssConfiguration: true,
   },
