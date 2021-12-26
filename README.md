@@ -31,12 +31,12 @@ git clone git@github.com:iffa/akm-next.git
 
 cd akm-next
 
-yarn install
+npm install
 
 # create .env.local and add environment variables (see .env.example)
 touch .env.local
 
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
